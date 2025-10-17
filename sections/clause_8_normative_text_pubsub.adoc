@@ -11,7 +11,7 @@ Use the following table for Requirements Classes.
 include::../requirements/requirements_class_avimet_pubsub_topics_core.adoc[]
 
 
-=== Requirement Class METAR Topic
+=== Requirement Class METAR Publish-Subscribe Topic
 
 Paragraph – intro text for the requirement class.
 
@@ -20,7 +20,7 @@ Use the following table for Requirements Classes.
 include::../requirements/requirements_class_METAR_pubsub_topic.adoc[]
 
 
-=== Requirement Class TAF Topic
+=== Requirement Class TAF Publish-Subscribe Topic
 
 Paragraph – intro text for the requirement class.
 
@@ -29,7 +29,7 @@ Use the following table for Requirements Classes.
 include::../requirements/requirements_class_TAF_pubsub_topic.adoc[]
 
 
-=== Requirement Class SIGMET Topic
+=== Requirement Class SIGMET Publish-Subscribe Topic
 
 Paragraph – intro text for the requirement class.
 
