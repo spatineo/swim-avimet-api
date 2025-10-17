@@ -16,11 +16,10 @@
 :keywords: aviation, SWIM, API, weather, meteorology
 :submitting-organizations: Organization One; Organization Two
 :document-class: ogc
-:output-extensions: xml,html,pdf
+:output-extensions: html,pdf
 :local-cache-only:
 :data-uri-image:
 :pdf-uri: ./document.pdf
-:xml-uri: ./document.xml
 :edition: 0.1
 
 ////
