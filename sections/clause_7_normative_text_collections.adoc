@@ -1,14 +1,14 @@
-== Clause containing normative material
+== OGC API Collections for Aviation Meteorology Messages
 
 Paragraph
 
-=== Requirement Class A or Requirement A Example
+=== Requirement Class Aviation Meteorology Message Collections - Core
 
 Paragraph – intro text for the requirement class.
 
 Use the following table for Requirements Classes.
 
-include::../requirements/requirements_class.adoc[]
+include::../requirements/requirements_class_avimet_collections_core.adoc[]
 
 ==== Requirement 1
 
@@ -36,3 +36,31 @@ Paragraph - intro text for the requirement.
 Use the following table for Requirements, number sequentially.
 
 include::../requirements/requirement002.adoc[]
+
+
+=== Requirement Class METAR Collection
+
+Paragraph – intro text for the requirement class.
+
+Use the following table for Requirements Classes.
+
+include::../requirements/requirements_class_METAR_collection.adoc[]
+
+
+=== Requirement Class TAF Collection
+
+Paragraph – intro text for the requirement class.
+
+Use the following table for Requirements Classes.
+
+include::../requirements/requirements_class_TAF_collection.adoc[]
+
+
+=== Requirement Class SIGMET Collection
+
+Paragraph – intro text for the requirement class.
+
+Use the following table for Requirements Classes.
+
+include::../requirements/requirements_class_SIGMET_collection.adoc[]
+

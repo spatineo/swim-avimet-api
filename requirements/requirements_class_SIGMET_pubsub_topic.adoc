@@ -1,0 +1,13 @@
+[[req-class-SIGMET-pubsub-topic]]
+
+[requirements_class]
+.Requirements Class 'SIGMET Publish-Subscribe Topic'
+====
+[%metadata]
+identifier:: http://www.opengis.net/spec/ABCD/m.n/req/req-class-SIGMET-pubsub-topic
+subject:: Web API
+requirement:: /req/req-class-SIGMET-pubsub-topic/req-name-1
+requirement:: /req/req-class-SIGMET-pubsub-topic/req-name-2
+====
+
+

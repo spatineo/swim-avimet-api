@@ -1,10 +1,54 @@
 [obligation=informative]
-== Clauses not containing normative material
 
-Paragraph
+== Standards for Aviation Meteorology Messaging
 
-=== Clauses not containing normative material sub-clause 1
+**NOTE!! GenAI generated text content, must be reviewed for correctness!!**
 
-Paragraph
+=== Governance of Standardised Aviation Meteorology Information
 
-=== Clauses not containing normative material sub-clause 2
+The definitive standards governing the content, format, and encoding of crucial aviation weather messages—METAR, TAF, and SIGMET—are jointly maintained by the International Civil Aviation Organization (ICAO) and the World Meteorological Organization (WMO). These organizations work in concert to ensure the global harmonization of meteorological information vital for the safety and efficiency of international air navigation.
+
+The foundational requirements for meteorological services are laid out in **ICAO Annex 3 — Meteorological Service for International Air Navigation**. This document establishes the need for states to provide meteorological information, including observations (METAR), forecasts (TAF), and warnings of significant weather phenomena (SIGMET). This information is accompanied by the specification serias **WMO-No. 306, Manual on Codes**, which provides the detailed message encoding standards.
+
+Annex 3 specifies the types of information to be included and the general procedures, and the detailed technical specifications for the message formats and their encoding are primarily found in WMO publications. **ICAO Annex 3** also mandates the use of IWXXM for the international exchange of meteorological information.
+
+=== METAR, TAF and SIGMET Messages
+
+TBA
+
+=== Traditional Alphanumeric Codes (TAC) and XML-based IWXXM Encoding
+
+For the long-standing text-based formats known as Traditional Alphanumeric Codes (TAC), the primary reference is the **WMO-No. 306, Manual on Codes, Volume I.1, Part A — Alphanumeric Codes**. This volume provides the detailed coding procedures, symbols, and syntax for creating METAR, TAF, and SIGMET messages. It is the authoritative guide for meteorological authorities and aviation users who rely on these traditional formats.
+
+With the modernization of aviation meteorology and the move towards digital information exchange, the ICAO Weather Information Exchange Model (IWXXM) was developed. This XML-based format allows for a more structured and machine-readable representation of meteorological data. The definitive technical specifications for the IWXXM encoding of METAR, TAF, and SIGMET messages are contained in the **WMO-No. 306, Manual on Codes, Volume I.3, Part D — Representations Derived From Data Models**. This part of the manual details the XML schema and data model for IWXXM, providing the necessary information for software developers and systems to generate and parse these messages.
+
+=== System-wide Information Management (SWIM)
+
+System-wide Information Management, or SWIM, is a foundational component of the next generation of air traffic management, including both the FAA's NextGen in the United States and Europe's SESAR. It represents a paradigm shift from traditional point-to-point data exchange to a net-centric, service-oriented architecture for sharing aviation information. In essence, SWIM acts as a digital backbone, enabling seamless and secure sharing of a vast array of aviation data, including the critical meteorological messages of METAR, TAF, and SIGMET.
+
+==== Moving Beyond Legacy Systems
+
+Historically, aviation weather messages were disseminated through legacy systems like the Aeronautical Fixed Telecommunication Network (AFTN). While reliable, these systems are akin to a series of dedicated phone lines, with rigid connections and limited data capacity. Each new connection required a new, dedicated link, leading to a complex and expensive web of interfaces.
+
+SWIM dismantles this model by establishing a "publish-subscribe" and "request-reply" framework. This allows various stakeholders—airlines, air traffic control, airports, and meteorological service providers—to access a single, unified source of information.
+
+==== The Central Role of IWXXM
+
+A crucial element in the SWIM ecosystem is the ICAO Meteorological Information Exchange Model (IWXXM). This is the standardized, machine-readable XML format for aviation weather data, including METARs, TAFs, and SIGMETs. The adoption of IWXXM ensures that the meteorological information published on SWIM is universally understandable by modern software systems, facilitating automated processing and integration into decision-support tools for pilots, dispatchers, and air traffic controllers.
+
+==== How METAR, TAF, and SIGMET are Disseminated via SWIM
+
+Within the SWIM environment, the publication and dissemination of meteorological data primarily follow two models:
+
+**1. Publish-Subscribe:** This is the most common model for routine and critical weather updates.
+
+* **Publication:** A meteorological service provider, such as a national weather service, generates a METAR, TAF, or SIGMET in the IWXXM format. They then "publish" this information to a specific topic or channel on the SWIM network.
+* **Subscription:** Various users (e.g., an airline's flight operations center, an air traffic management system) can "subscribe" to these topics.
+* **Dissemination:** As soon as a new message is published, the SWIM infrastructure automatically and instantaneously pushes it to all subscribed users. This is highly efficient for distributing time-sensitive information like a new SIGMET warning of severe turbulence or an updated TAF with significant weather changes.
+
+**2. Request-Reply:** This model is useful for obtaining specific or historical data on demand.
+
+* **Request:** A user can send a specific query to a meteorological data service available on SWIM. For example, an application could request all METARs for a particular airport over the last 24 hours.
+* **Reply:** The service then processes this request and sends back the relevant data in the IWXXM format.
+
+This transition to SWIM, with IWXXM as the standard data format, brings significant advantages. It enhances situational awareness by ensuring all stakeholders are working from the same, most current information. It also improves efficiency by reducing the need for multiple, bespoke data connections and enabling greater automation in the consumption and use of critical aviation weather data. The move is being implemented in phases, as outlined in the ICAO Aviation System Block Upgrades (ASBUs), with a clear roadmap for the global aviation community to migrate from legacy systems to the more capable and flexible SWIM environment.

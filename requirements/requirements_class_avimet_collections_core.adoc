@@ -1,0 +1,13 @@
+[[req-class-avimet-collections-core]]
+
+[requirements_class]
+.Requirements Class 'Aviation Meteorology Message Collections - Core'
+====
+[%metadata]
+identifier:: http://www.opengis.net/spec/ABCD/m.n/req/req-class-avimet-collections-core
+subject:: Web API
+requirement:: /req/req-class-avimet-collections-core/req-name-1
+requirement:: /req/req-class-avimet-collections-core/req-name-2
+====
+
+

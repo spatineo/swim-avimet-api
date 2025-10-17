@@ -1,0 +1,13 @@
+[[req-class-TAF-pubsub-topic]]
+
+[requirements_class]
+.Requirements Class 'TAF Publish-Subscribe Topic'
+====
+[%metadata]
+identifier:: http://www.opengis.net/spec/ABCD/m.n/req/req-class-TAF-pubsub-topic
+subject:: Web API
+requirement:: /req/req-class-TAF-pubsub-topic/req-name-1
+requirement:: /req/req-class-TAF-pubsub-topic/req-name-2
+====
+
+

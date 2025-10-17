@@ -1,0 +1,13 @@
+[[req-class-SIGMET-collection]]
+
+[requirements_class]
+.Requirements Class 'SIGMET Collection'
+====
+[%metadata]
+identifier:: http://www.opengis.net/spec/ABCD/m.n/req/req-class-SIGMET-collection
+subject:: Web API
+requirement:: /req/req-class-SIGMET-collection/req-name-1
+requirement:: /req/req-class-SIGMET-collection/req-name-2
+====
+
+

@@ -1,0 +1,38 @@
+== Publish-Subscribe Topics for Aviation Meteorology Messages
+
+Paragraph
+
+=== Requirement Class Aviation Meteorology Message Publish-Subscribe Topics - Core
+
+Paragraph – intro text for the requirement class.
+
+Use the following table for Requirements Classes.
+
+include::../requirements/requirements_class_avimet_pubsub_topics_core.adoc[]
+
+
+=== Requirement Class METAR Topic
+
+Paragraph – intro text for the requirement class.
+
+Use the following table for Requirements Classes.
+
+include::../requirements/requirements_class_METAR_pubsub_topic.adoc[]
+
+
+=== Requirement Class TAF Topic
+
+Paragraph – intro text for the requirement class.
+
+Use the following table for Requirements Classes.
+
+include::../requirements/requirements_class_TAF_pubsub_topic.adoc[]
+
+
+=== Requirement Class SIGMET Topic
+
+Paragraph – intro text for the requirement class.
+
+Use the following table for Requirements Classes.
+
+include::../requirements/requirements_class_SIGMET_pubsub_topic.adoc[]
