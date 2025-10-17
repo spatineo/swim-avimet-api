@@ -8,9 +8,7 @@
 
 The definitive standards governing the content, format, and encoding of crucial aviation weather messages—METAR, TAF, and SIGMET—are jointly maintained by the International Civil Aviation Organization (ICAO) and the World Meteorological Organization (WMO). These organizations work in concert to ensure the global harmonization of meteorological information vital for the safety and efficiency of international air navigation.
 
-The foundational requirements for meteorological services are laid out in **ICAO Annex 3 — Meteorological Service for International Air Navigation**. This document establishes the need for states to provide meteorological information, including observations (METAR), forecasts (TAF), and warnings of significant weather phenomena (SIGMET). This information is accompanied by the specification serias **WMO-No. 306, Manual on Codes**, which provides the detailed message encoding standards.
-
-Annex 3 specifies the types of information to be included and the general procedures, and the detailed technical specifications for the message formats and their encoding are primarily found in WMO publications. **ICAO Annex 3** also mandates the use of IWXXM for the international exchange of meteorological information.
+The foundational requirements for meteorological services are laid out in **ICAO Annex 3 — Meteorological Service for International Air Navigation**. This document establishes the need for states to provide meteorological information, including observations (METAR), forecasts (TAF), and warnings of significant weather phenomena (SIGMET). This information is accompanied by the specification series **WMO-No. 306, Manual on Codes**, which provides the detailed message encoding standards. The ICAO Annex 3 specifies the types of information to be included and the general procedures, and the detailed technical specifications for the message formats and their encoding are primarily found in WMO publications. The ICAO Annex 3 also mandates the use of IWXXM for the international exchange of meteorological information.
 
 === METAR, TAF and SIGMET Messages
 
@@ -52,3 +50,17 @@ Within the SWIM environment, the publication and dissemination of meteorological
 * **Reply:** The service then processes this request and sends back the relevant data in the IWXXM format.
 
 This transition to SWIM, with IWXXM as the standard data format, brings significant advantages. It enhances situational awareness by ensuring all stakeholders are working from the same, most current information. It also improves efficiency by reducing the need for multiple, bespoke data connections and enabling greater automation in the consumption and use of critical aviation weather data. The move is being implemented in phases, as outlined in the ICAO Aviation System Block Upgrades (ASBUs), with a clear roadmap for the global aviation community to migrate from legacy systems to the more capable and flexible SWIM environment.
+
+=== Implementation Considerations for Aviation Meteorology Message Dissemination
+
+==== Request-Reply Model Using OGC API Collections and OpenAPI
+
+==== Publish-Subscribe Model Using MQTT, AMQP and AsyncAPI
+
+==== Foundational Standards and Specifications
+
+* OGC API - Features - Part 1: Core corrigendum (OGC 17-069r4)
+* OGC API - Environmental Data Retrieval Standard (version 1.1, OGC 19-086r6)
+* OGC API - Common - Part 1: Core (OGC 19-072)
+* OGC API - Common - Part 2: Geospatial Data (OGC 20-024, draft)
+* OGC API Publish-Subscribe Workflow - Part 1: Core (OGC 25-030, draft)
